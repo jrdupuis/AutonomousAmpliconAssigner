@@ -17,7 +17,7 @@ cd AutonomousAmpliconAssigner
 #### Create and activate Anaconda environment: 
 (note, env is installed in the current dir in ./AAA_env)
 ```
-./create_envs.sh
+bash ./create_envs.sh
 conda activate ./AAA_env
 ```
 

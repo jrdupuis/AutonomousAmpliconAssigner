@@ -4,9 +4,9 @@ AutonomousAmpliconAssigner (AAA) processes and calls consensus sequences from mu
 
 ## Installation
 
-#### Install Anaconda distribution of python
+#### Dependencies
 
-[Anaconda download page](https://www.continuum.io/downloads)
+Python v3 and several Python modules (specified in `environment.yml`) are required for AAA.
 
 #### Download this git repo
 Using git:

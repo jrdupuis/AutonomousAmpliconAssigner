@@ -22,7 +22,7 @@ conda activate ./AAA_env
 ```
 
 #### Download Data
-A toy dataset from [Dupuis et al. (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12783) is included in this repo ([here](https://github.com/jrdupuis/AutonomousAmpliconAssigner/tree/main/input_data)). It contains a single specimen's data for XXX loci.
+A toy dataset from [Dupuis et al. (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.12783) is included in this repo ([here](https://github.com/jrdupuis/AutonomousAmpliconAssigner/tree/main/input_data)). It contains a single specimen's data for 169 loci.
 
 ## Usage
 #### config.toml

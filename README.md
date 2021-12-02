@@ -36,6 +36,8 @@ Executing AAA is as simple as running
 ./AAA.py
 ```
 
+By default, intermediate and output files are written to `./intermediate` and `./output`, but these locations can be specified in `config.toml`.
+
 AAA.py finds the most prevalent read length for each individual per amplicon and calls a degenerate consensus sequence based on all reads of that length, using the rules of [Cavener 1987 Nucleic Acids Research 15:1353–1361](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/15.4.1353) (via [Bio.motifs](http://biopython.org/DIST/docs/tutorial/Tutorial.html) in BioPython). By default, any consensus reads <65 bp are removed, and if an individuals' consensus sequence length deviates >20 bp from the mean consensus sequence length for that amplicon, it is removed. These default values can be edited in `config.toml`. 
 
 The output of `AAA.py` includes individual FASTA files for each consensus sequence, and a single multi-FASTA per amplicon containing all individuals' consensus sequences. 

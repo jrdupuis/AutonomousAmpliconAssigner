@@ -1,0 +1,10 @@
+name: AAA_env
+channels:
+  - bioconda
+dependencies:
+  - python=3.6
+  - pandas
+  - biopython
+  - pip
+  - pip:
+      - pytoml==0.1.13

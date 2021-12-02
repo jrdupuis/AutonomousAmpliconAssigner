@@ -1,0 +1,21 @@
+#################
+# Amplicon processing parameters
+#################
+
+# exclude if len < min_length
+min_length = 65
+# exclude if length deviates from the mean by more then max_len_dev
+max_len_dev = 20
+
+#################
+# Paths: As a rule, variables with "path" in the name are relitive paths to a directory and end in a '/'.
+#################
+
+# input
+sequences_path =                    "./input_data/"
+
+# intermediate
+called_sequences_path =             "./intermediate/"
+
+# output
+filtered_summary_sequences_path =   "./output/"
